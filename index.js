@@ -7,7 +7,7 @@ const { Web3 } = require('web3');
 const web3 = new Web3(`https://goerli.infura.io/v3/${process.env.INFURA_KEY}`);
 
 app.use(cors({
-    origin: 'https://ashokacoin.netlify.app/'
+    origin: 'https://ashokacoin.netlify.app'
 }));
 app.use(express.json()); // Middleware for parsing JSON bodies
 
